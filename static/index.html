@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Chatbot in JavaScript | CodingNepal</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts Link For Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <script src="/static/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Good Board</h1>
+  </header>
+
+  <main>
+      <div class="product">
+          <img src="/static/b1.png" alt="Product 1">
+          <h2>Quant 1</h2>
+          <p>Small board for beginners seeking agility and easy control.</p>
+          <p class="price">$3 299</p>
+      </div>
+      
+      <div class="product">
+          <img src="/static/b2.png" alt="Product 2">
+          <h2>Quant 2</h2>
+          <p>Large board for professionals needing stability and trick performance.</p>
+          <p class="price">$7 659</p>
+      </div>
+
+      <div class="product">
+          <img src="/static/b3.png" alt="Product 3">
+          <h2>Neon Board</h2>
+          <p>Medium board blending style and functionality for elite surfers.</p>
+          <p class="price">$49 399</p>
+      </div>
+  </main>
+
+  <footer>
+      <p>Contact us at: contact@goodboard.com</p>
+  </footer>
+
+
+    <button class="chatbot-toggler">
+      <span class="material-symbols-rounded">mode_comment</span>
+      <span class="material-symbols-outlined">close</span>
+    </button>
+    <div class="chatbot">
+      <header>
+        <h2>Good Board BOT</h2>
+        <span class="close-btn material-symbols-outlined">close</span>
+      </header>
+      <ul class="chatbox">
+        <li class="chat incoming">
+          <span class="material-symbols-outlined">smart_toy</span>
+          <p>Я могу ответить на твои вопросы и помочь выбрать серфинг борд!</p>
+        </li>
+      </ul>
+      <div class="chat-input">
+        <textarea placeholder="Введите сообщение..." spellcheck="false" required></textarea>
+        <span id="send-btn" class="material-symbols-rounded">send</span>
+      </div>
+    </div>
+
+  </body>
+</html>
